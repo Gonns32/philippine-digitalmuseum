@@ -1,0 +1,54 @@
+PHOTO SLOTS: THE PRESENT PAGE
+
+Each category has 3 photo slots for 2000-2010 and 3 for 2020-2026 (36 in total).
+To fill a slot, upload a .jpg with the EXACT file name below into the same place as index.html (the main level of the repo). No code changes needed.
+Slot 1 of each set is the large photo; slots 2 and 3 are the smaller ones.
+Tip: landscape photos, around 900 px wide, keep the page fast.
+
+I SOCIAL
+  p-social-then-1.jpg    (2000-2010)
+  p-social-then-2.jpg    (2000-2010)
+  p-social-then-3.jpg    (2000-2010)
+  p-social-now-1.jpg    (2020-2026)
+  p-social-now-2.jpg    (2020-2026)
+  p-social-now-3.jpg    (2020-2026)
+
+II ECONOMIC
+  p-economic-then-1.jpg    (2000-2010)
+  p-economic-then-2.jpg    (2000-2010)
+  p-economic-then-3.jpg    (2000-2010)
+  p-economic-now-1.jpg    (2020-2026)
+  p-economic-now-2.jpg    (2020-2026)
+  p-economic-now-3.jpg    (2020-2026)
+
+III POLITICAL
+  p-political-then-1.jpg    (2000-2010)
+  p-political-then-2.jpg    (2000-2010)
+  p-political-then-3.jpg    (2000-2010)
+  p-political-now-1.jpg    (2020-2026)
+  p-political-now-2.jpg    (2020-2026)
+  p-political-now-3.jpg    (2020-2026)
+
+IV CULTURAL
+  p-cultural-then-1.jpg    (2000-2010)
+  p-cultural-then-2.jpg    (2000-2010)
+  p-cultural-then-3.jpg    (2000-2010)
+  p-cultural-now-1.jpg    (2020-2026)
+  p-cultural-now-2.jpg    (2020-2026)
+  p-cultural-now-3.jpg    (2020-2026)
+
+V ENVIRONMENTAL
+  p-environmental-then-1.jpg    (2000-2010)
+  p-environmental-then-2.jpg    (2000-2010)
+  p-environmental-then-3.jpg    (2000-2010)
+  p-environmental-now-1.jpg    (2020-2026)
+  p-environmental-now-2.jpg    (2020-2026)
+  p-environmental-now-3.jpg    (2020-2026)
+
+VI OTHERS
+  p-others-then-1.jpg    (2000-2010)
+  p-others-then-2.jpg    (2000-2010)
+  p-others-then-3.jpg    (2000-2010)
+  p-others-now-1.jpg    (2020-2026)
+  p-others-now-2.jpg    (2020-2026)
+  p-others-now-3.jpg    (2020-2026)
