@@ -5,7 +5,7 @@
    - web3forms: your free Access Key from web3forms.com (they email it to you)
    - formspree: your form address from formspree.io, e.g. "https://formspree.io/f/abcdwxyz"
    Leave both empty and visitors will see a "not connected yet" notice. */
-var CONFIG={web3forms:"",formspree:""};
+var CONFIG={web3forms:"ef31f5ed-c920-4df7-b7ee-2b49d326e918",formspree:""};
 
 /* ===== GUESTBOOK WALL =====
    Add comments here ONLY with the visitor's permission. Example:
