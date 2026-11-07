@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feedback — The Archive</title>
+<meta name="description" content="Leave a rating, review or suggestion for The Archive, a digital museum of Philippine pop culture.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Special+Elite&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body class="feedback" data-page="feedback" style="--accent:#9a2433">
+<div id="progress"></div>
+<header class="site-head"><div class="wrap">
+  <a class="brand" href="index.html" aria-label="The Archive, home"><span class="seal">A</span><span><b>The Archive</b><small>Philippine Pop Culture &middot; Then &amp; Now</small></span></a>
+  <button class="burger" aria-label="Menu" aria-expanded="false">&#9776;</button>
+  <nav class="nav" aria-label="Main"><a data-n="home" href="index.html">Lobby</a><a data-n="past" href="past.html">Past</a><a data-n="present" href="present.html">Present</a><a data-n="future" href="future.html">Future</a><a data-n="feedback" href="feedback.html">Feedback</a><a data-n="sources" href="sources.html">Sources</a></nav>
+</div></header>
+
+<section class="era-hero"><div class="wrap">
+  <div class="crumbs"><a href="index.html">Lobby</a> &rsaquo; Feedback</div>
+  <h1>Visitor Comment Card</h1>
+  <p>Tell us how your visit went. Praise, suggestions and corrections are all welcome, and every note is read.</p>
+</div></section>
+<main class="wrap">
+ <div class="fb-grid">
+  <div class="fcard">
+   <div class="fcard-top"><span>The Archive &middot; Comment Card</span><span>Please fill in</span></div>
+   <form id="fbform" novalidate>
+     <fieldset><legend>How would you rate your visit?</legend><div class="stars"><input type="radio" name="rating" id="st5" value="5"><label for="st5" title="5 stars">&#9733;</label><input type="radio" name="rating" id="st4" value="4"><label for="st4" title="4 stars">&#9733;</label><input type="radio" name="rating" id="st3" value="3"><label for="st3" title="3 stars">&#9733;</label><input type="radio" name="rating" id="st2" value="2"><label for="st2" title="2 stars">&#9733;</label><input type="radio" name="rating" id="st1" value="1"><label for="st1" title="1 star">&#9733;</label></div><div class="rate-out" id="rateOut" aria-live="polite"></div></fieldset>
+     <fieldset><legend>What are you commenting on?</legend><div class="chips"><input type="radio" name="topic" id="tp0" value="The whole museum" checked><label for="tp0">The whole museum</label><input type="radio" name="topic" id="tp1" value="The Past"><label for="tp1">The Past</label><input type="radio" name="topic" id="tp2" value="The Present"><label for="tp2">The Present</label><input type="radio" name="topic" id="tp3" value="Design & layout"><label for="tp3">Design &amp; layout</label><input type="radio" name="topic" id="tp4" value="Something else"><label for="tp4">Something else</label></div></fieldset>
+     <div class="fsec"><label class="flabel" for="nm">Your name <small>(optional)</small></label><input type="text" id="nm" name="name" maxlength="60" autocomplete="nickname"></div>
+     <div class="fsec"><label class="flabel" for="ms">Your comments</label><textarea id="ms" name="message" maxlength="1200" rows="6" placeholder="What stood out? What could be better?"></textarea><span class="count">0 / 1200</span></div>
+     <label class="chk"><input type="checkbox" name="quote"><span>You may quote my comment on this site (first name or nickname only).</span></label>
+     <input type="text" name="website" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+     <div class="fsubmit"><button class="btn solid" type="submit">Submit feedback</button><p class="fmsg" role="status" aria-live="polite"></p></div>
+   </form>
+   <div class="thanks"><div class="stamp">Thank you!</div><p>Your note has been received. It helps make the museum better.</p><button class="btn" id="again" type="button">Leave another note</button></div>
+  </div>
+  <aside class="fside">
+   <div class="wall"><h2>From the Guestbook</h2><div id="wall"></div></div>
+   <div class="tips"><h3>Helpful notes often include</h3><ul><li>Which exhibit or page you are talking about</li><li>What you enjoyed, or what felt unclear</li><li>Anything that looked broken on your device</li><li>Facts or photos you think should be corrected</li></ul></div>
+  </aside>
+ </div>
+ <nav class="nextwing" aria-label="Continue"><a href="present.html"><small>&larr; Explore</small><b>The Present</b></a><a class="r" href="sources.html"><small>Continue &rarr;</small><b>Sources &amp; Credits</b></a></nav>
+</main>
+<footer class="site-foot"><div class="wrap">
+  <div><a class="brand" href="index.html"><span class="seal">A</span><span><b>The Archive</b></span></a>
+  <p>A digital museum preserving the iconic spaces, technologies, and performances that shaped a generation.</p></div>
+  <div><h4>Eras</h4><ul><li><a href="past.html">The Past &middot; 2000&ndash;2010</a></li><li><a href="present.html">The Present &middot; 2020&ndash;2026</a></li><li><a href="future.html">The Future</a></li><li><a href="feedback.html">Leave Feedback</a></li></ul></div>
+  <div><h4>Visit</h4><ul><li><a href="sources.html">Sources &amp; Credits</a></li><li><a href="index.html">Back to the Lobby</a></li></ul></div>
+</div>
+<div class="copy">THE ARCHIVE &middot; A DIGITAL MUSEUM OF PHILIPPINE POP CULTURE &middot; THEN &amp; NOW</div></footer>
+<button class="totop" id="totop" aria-label="Back to top">&uarr;</button>
+<div class="overlay" id="overlay" role="dialog" aria-modal="true"><div class="modal" id="modal"></div></div>
+
+<script src="app.js"></script>
+<script src="feedback.js"></script>
+</body>
+</html>
