@@ -618,4 +618,14 @@ body[data-page="future"] .nav a[data-n="future"]{color:var(--wine);border-bottom
 
 .credit{font-size:.7rem;line-height:1.4;opacity:.75;margin:6px 0 0;font-style:italic}
 
+.pcompare{position:relative}
+.parrow{position:absolute;top:50%;transform:translateY(-50%);z-index:5;width:46px;height:46px;border-radius:50%;border:2px solid var(--brass);background:var(--ivory);color:var(--cat);font-size:20px;cursor:pointer;box-shadow:0 6px 16px rgba(0,0,0,.28);transition:.2s;display:none}
+.parrow:hover{background:var(--cat);color:#fff}
+.parrow.prev{left:-14px}.parrow.next{right:-14px}
+.psec[data-view="then"] .parrow.next{display:grid;place-items:center}
+.psec[data-view="now"] .parrow.prev{display:grid;place-items:center}
+.pbridge{display:none!important}
+.pcompare{touch-action:pan-y}
+@media(max-width:760px){.parrow{width:40px;height:40px}.parrow.prev{left:-6px}.parrow.next{right:-6px}}
+
 .ex{scroll-margin-top:50px}

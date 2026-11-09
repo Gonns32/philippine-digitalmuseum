@@ -30,7 +30,21 @@ document.addEventListener('click',function(e){
   $$('.pcard',sec).forEach(function(c){c.style.animation='none';void c.offsetWidth;c.style.animation=''});
 });
 
-/* Then / Compare / Now toggle */
+/* swipe + arrows: arrows reuse the era toggle (data-v) */
+var tx=null;
+document.addEventListener('touchstart',function(e){var c=e.target.closest('.pcompare'); tx=c?e.touches[0].clientX:null;},{passive:true});
+document.addEventListener('touchend',function(e){
+  if(tx===null) return; var c=e.target.closest('.pcompare'); if(!c){tx=null;return}
+  var dx=e.changedTouches[0].clientX-tx; tx=null; if(Math.abs(dx)<50) return;
+  var sec=c.closest('.psec'), want=dx<0?'now':'then';
+  if(sec.dataset.view!==want){var b=$('.vtoggle button[data-v="'+want+'"]',sec); if(b) b.click();}
+});
+document.addEventListener('click',function(e){
+  var a=e.target.closest('.parrow'); if(!a) return;
+  var b=$('.vtoggle button[data-v="'+a.dataset.v+'"]',a.closest('.psec')); if(b) b.click();
+});
+
+/* Then / Now toggle */
 document.addEventListener('click',function(e){
   var b=e.target.closest('.vtoggle button'); if(!b) return;
   var sec=b.closest('.psec'), v=b.dataset.v;
