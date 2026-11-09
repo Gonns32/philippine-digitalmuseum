@@ -599,4 +599,23 @@ body[data-page="future"] .nav a[data-n="future"]{color:var(--wine);border-bottom
 @media(max-width:640px){.q-btns{gap:12px}.q-card{padding:26px 18px 30px}.q-intro,.q-end{padding:32px 18px}.tb{font-size:18px}}
 @media(prefers-reduced-motion:reduce){.tin{transition:none}.tf em,.pbridge span{animation:none}}
 
+.pgrid.one{grid-template-columns:1fr;grid-template-rows:1fr}
+.pgrid.one .slot.s1{grid-row:auto}
+.pcard .trend{display:inline-block;margin:2px 0 8px;padding:3px 10px;border-radius:99px;font-weight:600;font-size:.74rem;line-height:1.4;letter-spacing:.03em;background:color-mix(in srgb,var(--cat) 14%,transparent);color:var(--cat);border:1px solid color-mix(in srgb,var(--cat) 40%,transparent)}
+.now .trend{color:#f1dd9c;border-color:rgba(230,199,115,.6);background:rgba(255,255,255,.08)}
+
+.subtabs{display:flex;gap:8px;margin:0 0 18px;flex-wrap:wrap}
+.subtabs button{font-family:var(--type);font-size:12.5px;letter-spacing:.08em;text-transform:uppercase;padding:10px 18px;border:2px solid var(--cat);background:transparent;color:var(--cat);cursor:pointer;transition:.25s}
+.subtabs button:hover{background:color-mix(in srgb,var(--cat) 14%,transparent)}
+.subtabs button.on{background:var(--cat);color:#fff}
+.psec .stech{display:none}
+.psec[data-sub="tech"] .stech{display:grid}
+.psec[data-sub="tech"] .strend{display:none}
+.psec[data-sub="tech"] .stech .pgrid{height:300px}
+.psec[data-sub="tech"][data-view="then"] .stech .pgrid,.psec[data-sub="tech"][data-view="now"] .stech .pgrid{height:400px}
+.stech .pgrid.one{height:300px}
+@media(max-width:760px){.subtabs button{flex:1;padding:12px 6px}}
+
+.credit{font-size:.7rem;line-height:1.4;opacity:.75;margin:6px 0 0;font-style:italic}
+
 .ex{scroll-margin-top:50px}

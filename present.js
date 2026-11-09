@@ -21,6 +21,15 @@ $$('.slot').forEach(function(slot){
   slot.addEventListener('keydown',function(e){ if(slot.classList.contains('has')&&(e.key==='Enter'||e.key===' ')){e.preventDefault();slot.click();} });
 });
 
+/* Observable Trend / Technology Icon sub-tabs */
+document.addEventListener('click',function(e){
+  var b=e.target.closest('.subtabs button'); if(!b) return;
+  var sec=b.closest('.psec');
+  $$('.subtabs button',sec).forEach(function(x){var on=x===b;x.classList.toggle('on',on);x.setAttribute('aria-selected',on)});
+  sec.dataset.sub=b.dataset.sub;
+  $$('.pcard',sec).forEach(function(c){c.style.animation='none';void c.offsetWidth;c.style.animation=''});
+});
+
 /* Then / Compare / Now toggle */
 document.addEventListener('click',function(e){
   var b=e.target.closest('.vtoggle button'); if(!b) return;

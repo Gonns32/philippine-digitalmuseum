@@ -1,54 +1,69 @@
 PHOTO SLOTS: THE PRESENT PAGE
 
-Each category has 3 photo slots for 2000-2010 and 3 for 2020-2026 (36 in total).
-To fill a slot, upload a .jpg with the EXACT file name below into the same place as index.html (the main level of the repo). No code changes needed.
-Slot 1 of each set is the large photo; slots 2 and 3 are the smaller ones.
-Tip: landscape photos, around 900 px wide, keep the page fast.
+Observable Trend tab: Social has 3 photo slots per era, every other category 1. Technology Icon tab: 3 per era (Environmental 2000-2010 has 1).
+To add or swap a photo, upload a .jpg with the EXACT file name below next to index.html (main level of the repo). No code changes needed.
+Tip: landscape photos, about 900 px wide, keep the page fast.
+
+[filled] = a photo is already included (you can replace it). [NEEDS PHOTO] = still shows an 'Add photo' box.
 
 I SOCIAL
-  p-social-then-1.jpg    (2000-2010)
-  p-social-then-2.jpg    (2000-2010)
-  p-social-then-3.jpg    (2000-2010)
-  p-social-now-1.jpg    (2020-2026)
-  p-social-now-2.jpg    (2020-2026)
-  p-social-now-3.jpg    (2020-2026)
+  p-social-then-1.jpg          (2000-2010)  [filled]
+  p-social-then-2.jpg          (2000-2010)  [filled]
+  p-social-then-3.jpg          (2000-2010)  [filled]
+  p-social-now-1.jpg           (2020-2026)  [filled]
+  p-social-now-2.jpg           (2020-2026)  [filled]
+  p-social-now-3.jpg           (2020-2026)  [filled]
+  p-social-tech-then-1.jpg       (2000-2010, Technology Icon)  [filled]
+  p-social-tech-then-2.jpg       (2000-2010, Technology Icon)  [filled]
+  p-social-tech-then-3.jpg       (2000-2010, Technology Icon)  [filled]
+  p-social-tech-now-1.jpg        (2020-2026, Technology Icon)  [filled]
+  p-social-tech-now-2.jpg        (2020-2026, Technology Icon)  [filled]
+  p-social-tech-now-3.jpg        (2020-2026, Technology Icon)  [filled]
 
 II ECONOMIC
-  p-economic-then-1.jpg    (2000-2010)
-  p-economic-then-2.jpg    (2000-2010)
-  p-economic-then-3.jpg    (2000-2010)
-  p-economic-now-1.jpg    (2020-2026)
-  p-economic-now-2.jpg    (2020-2026)
-  p-economic-now-3.jpg    (2020-2026)
+  p-economic-then-1.jpg        (2000-2010)  [filled]
+  p-economic-now-1.jpg         (2020-2026)  [filled]
+  p-economic-tech-then-1.jpg     (2000-2010, Technology Icon)  [filled]
+  p-economic-tech-then-2.jpg     (2000-2010, Technology Icon)  [filled]
+  p-economic-tech-then-3.jpg     (2000-2010, Technology Icon)  [filled]
+  p-economic-tech-now-1.jpg      (2020-2026, Technology Icon)  [filled]
+  p-economic-tech-now-2.jpg      (2020-2026, Technology Icon)  [filled]
+  p-economic-tech-now-3.jpg      (2020-2026, Technology Icon)  [filled]
 
 III POLITICAL
-  p-political-then-1.jpg    (2000-2010)
-  p-political-then-2.jpg    (2000-2010)
-  p-political-then-3.jpg    (2000-2010)
-  p-political-now-1.jpg    (2020-2026)
-  p-political-now-2.jpg    (2020-2026)
-  p-political-now-3.jpg    (2020-2026)
+  p-political-then-1.jpg       (2000-2010)  [filled]
+  p-political-now-1.jpg        (2020-2026)  [filled]
+  p-political-tech-then-1.jpg    (2000-2010, Technology Icon)  [filled]
+  p-political-tech-then-2.jpg    (2000-2010, Technology Icon)  [filled]
+  p-political-tech-then-3.jpg    (2000-2010, Technology Icon)  [filled]
+  p-political-tech-now-1.jpg     (2020-2026, Technology Icon)  [filled]
+  p-political-tech-now-2.jpg     (2020-2026, Technology Icon)  [filled]
+  p-political-tech-now-3.jpg     (2020-2026, Technology Icon)  [filled]
 
 IV CULTURAL
-  p-cultural-then-1.jpg    (2000-2010)
-  p-cultural-then-2.jpg    (2000-2010)
-  p-cultural-then-3.jpg    (2000-2010)
-  p-cultural-now-1.jpg    (2020-2026)
-  p-cultural-now-2.jpg    (2020-2026)
-  p-cultural-now-3.jpg    (2020-2026)
+  p-cultural-then-1.jpg        (2000-2010)  [filled]
+  p-cultural-now-1.jpg         (2020-2026)  [filled]
+  p-cultural-tech-then-1.jpg     (2000-2010, Technology Icon)  [filled]
+  p-cultural-tech-then-2.jpg     (2000-2010, Technology Icon)  [filled]
+  p-cultural-tech-then-3.jpg     (2000-2010, Technology Icon)  [filled]
+  p-cultural-tech-now-1.jpg      (2020-2026, Technology Icon)  [filled]
+  p-cultural-tech-now-2.jpg      (2020-2026, Technology Icon)  [filled]
+  p-cultural-tech-now-3.jpg      (2020-2026, Technology Icon)  [filled]
 
 V ENVIRONMENTAL
-  p-environmental-then-1.jpg    (2000-2010)
-  p-environmental-then-2.jpg    (2000-2010)
-  p-environmental-then-3.jpg    (2000-2010)
-  p-environmental-now-1.jpg    (2020-2026)
-  p-environmental-now-2.jpg    (2020-2026)
-  p-environmental-now-3.jpg    (2020-2026)
+  p-environmental-then-1.jpg   (2000-2010)  [loads from Wikimedia Commons - credited on page]
+  p-environmental-now-1.jpg    (2020-2026)  [filled]
+  p-environmental-tech-then-1.jpg (2000-2010, Technology Icon)  [loads from Wikimedia Commons - credited on page]
+  p-environmental-tech-now-1.jpg (2020-2026, Technology Icon)  [filled]
+  p-environmental-tech-now-2.jpg (2020-2026, Technology Icon)  [filled]
+  p-environmental-tech-now-3.jpg (2020-2026, Technology Icon)  [filled]
 
 VI OTHERS
-  p-others-then-1.jpg    (2000-2010)
-  p-others-then-2.jpg    (2000-2010)
-  p-others-then-3.jpg    (2000-2010)
-  p-others-now-1.jpg    (2020-2026)
-  p-others-now-2.jpg    (2020-2026)
-  p-others-now-3.jpg    (2020-2026)
+  p-others-then-1.jpg          (2000-2010)  [filled]
+  p-others-now-1.jpg           (2020-2026)  [filled]
+  p-others-tech-then-1.jpg       (2000-2010, Technology Icon)  [filled]
+  p-others-tech-then-2.jpg       (2000-2010, Technology Icon)  [filled]
+  p-others-tech-then-3.jpg       (2000-2010, Technology Icon)  [filled]
+  p-others-tech-now-1.jpg        (2020-2026, Technology Icon)  [filled]
+  p-others-tech-now-2.jpg        (2020-2026, Technology Icon)  [filled]
+  p-others-tech-now-3.jpg        (2020-2026, Technology Icon)  [filled]
